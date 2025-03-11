@@ -1,25 +1,21 @@
-Below is the `.md` file that provides an overview of your project and its features. It includes a description of the project, its purpose, and the functionality of each contract.
-
 ---
 
 # Decentralized Exchange (DEX) Project Overview
 
 ## Table of Contents
-- [Decentralized Exchange (DEX) Project Overview](#decentralized-exchange-dex-project-overview)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Project Features](#project-features)
-  - [Contracts Overview](#contracts-overview)
-    - [ODex.sol](#odexsol)
-      - [Key Features:](#key-features)
-      - [Functions:](#functions)
-    - [LPToken.sol](#lptokensol)
-      - [Key Features:](#key-features-1)
-      - [Functions:](#functions-1)
-    - [TokenA.sol and TokenB.sol](#tokenasol-and-tokenbsol)
-      - [Key Features:](#key-features-2)
-      - [Functions:](#functions-2)
-  - [Testing Environment](#testing-environment)
+- [Introduction](#introduction)
+- [Project Features](#project-features)
+- [Contracts Overview](#contracts-overview)
+  - [ODex.sol](#odexsol)
+    - [Key Features:](#key-features)
+    - [Functions:](#functions)
+  - [LPToken.sol](#lptokensol)
+    - [Key Features:](#key-features-1)
+    - [Functions:](#functions-1)
+  - [TokenA.sol and TokenB.sol](#tokenasol-and-tokenbsol)
+    - [Key Features:](#key-features-2)
+    - [Functions:](#functions-2)
+- [Testing Environment](#testing-environment)
 
 ---
 

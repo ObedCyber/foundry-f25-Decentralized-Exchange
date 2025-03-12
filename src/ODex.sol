@@ -134,8 +134,8 @@ contract ODex is ReentrancyGuard {
         // deltaY = y * r * deltaX / x + (r * deltaX)
         // outputAmount = (outputReserve * inputAmount) / (inputReserve + inputAmount)
         
-        amount = (amount * 997) / 1000;
-        uint outputTokens = pool.tokenBalances[to] * amount / (pool.tokenBalances[to] + amount);        
+        newAmount = (amount * 997) / 1000;
+        uint outputTokens = pool.tokenBalances[to] * newAmount / (pool.tokenBalances[to] + newAmount);        
         
         // check out for slippage 
         require(outputTokens >= minOutputAmount, "Slippage exceeded");
